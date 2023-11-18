@@ -1,0 +1,5 @@
+20231118-03:45:30.000000000 : Created session
+20231118-03:45:30.000000000 : Connecting to 129.126.125.251 on port 5100 (Source :0)
+20231118-03:45:31.000000000 : Initiated logon request
+20231118-03:45:31.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20231118-03:45:31.000000000 : Received logon response
