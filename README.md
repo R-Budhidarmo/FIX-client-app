@@ -1,6 +1,8 @@
 # FIX Client Application
 
-This FIX (Financial Information eXchange) client application serves as a proof-of-concept (POC) trading communication system that exchanges data with a remote FIX server. The code was developed using Python 3.9.12 and leverages a known open-source [QuickFIX engine](https://quickfixengine.org/) library to handle FIX protocol messaging. For this particular example, FIX version 4.2 was used. The code was designed for a client / initiator to send new orders, cancel existing orders, as well as receive execution reports and key trade statistics at the end. 
+This FIX (Financial Information eXchange) client application serves as a proof-of-concept (POC) trading communication system that exchanges data with a remote FIX server. **Note:** *The code was initially developed as part of a job interview to meet the specifications set by the interviewer. Feel free to fork it & modify it as you like, but be careful with some of the details (e.g. config & xml files). Make sure they're set according to your specific needs).*
+<br>
+<br>This code was developed using Python 3.9.12 and leverages a known open-source [QuickFIX engine](https://quickfixengine.org/) library to handle FIX protocol messaging. For this particular example, FIX version 4.2 was used. The code was designed for a client / initiator to send new orders, cancel existing orders, as well as receive execution reports and key trade statistics at the end. 
 
 ## Table of Contents
 
