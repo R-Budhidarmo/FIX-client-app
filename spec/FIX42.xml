@@ -255,7 +255,7 @@
    <field name='EncodedText' required='N' />
   </message>
   <message name='Logon' msgcat='admin' msgtype='A'>
-   <field name='EncryptMethod' required='Y' />
+   <field name='EncryptMethod' required='N' />
    <field name='HeartBtInt' required='Y' />
    <field name='RawDataLength' required='N' />
    <field name='RawData' required='N' />
