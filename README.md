@@ -47,18 +47,18 @@ ValidateFieldsHaveVal=N
 ValidateUserDefinedFields=N
 ValidateFieldsOutOfOrder=N
 UseDataDictionary=Y
-DataDictionary=./spec/FIX42_DTL.xml
+DataDictionary=./spec/FIX42.xml
 RefreshOnLogon=N
 ResetOnLogon=Y
 PersistMessages=N
 
 [SESSION]
-SessionID=DTL_TEST
+SessionID=#####
 BeginString=FIX.4.2
-SocketConnectHost=129.126.125.251
-SocketConnectPort=5100
-SenderCompID=OPS_CANDIDATE_9_2308
-TargetCompID=DTL
+SocketConnectHost=xxx.xxx.xxx.xxx
+SocketConnectPort=xxxx
+SenderCompID=#######
+TargetCompID=#######
 ```
 
 The configuration settings can be adjusted according to your server specifications. For further information, refer to the QuickFIX engine [documentation](https://quickfixengine.org/c/documentation/).
