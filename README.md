@@ -18,7 +18,7 @@ This FIX (Financial Information eXchange) client application serves as a proof-o
 
 ## Installation
 
-To run the Fapplication, you need to have Python 3.x installed (as mentioned above, Python 3.9.12 was used during development). Several Python 3 standard modules were employed: ```system```, ```random```, ```argparse```, ```time```, and ```datetime```. In addition to the standard libraries, [```QuickFIX```](https://pypi.org/project/quickfix/) version 1.15.1 and [```pandas```](https://pypi.org/project/pandas/1.4.2/) version 1.4.2 can be installed as follows:
+To run the application, you need to have Python 3.x installed (as mentioned above, Python 3.9.12 was used during development). Several Python 3 standard modules were employed: ```system```, ```random```, ```argparse```, ```time```, and ```datetime```. In addition to the standard libraries, [```QuickFIX```](https://pypi.org/project/quickfix/) version 1.15.1 and [```pandas```](https://pypi.org/project/pandas/1.4.2/) version 1.4.2 can be installed as follows:
 
 ```bash
 pip install quickfix
@@ -124,4 +124,4 @@ The `MyApp` class is a subclass of `quickfix.Application` and defines methods to
 
 ---
 
-The application was developed for educational and POC purposes only. In its current form, all admin- and application-level messages (going to and from the server) are printed in the console (the SOH character in a message has been replaced by the pipe character ("|") for better visibility). This could be useful, for example, in troubleshooting some client-server exchange issues with a specific broker. In addition, the trade statistics were only limited for filled Buy orders only. Future version of the application will be developed to include more functionalities (e.g. for short selling).
+The application was developed for educational and POC purposes only. In its current form, all admin- and application-level messages (going to and from the server) are printed to the console (the SOH character in a message has been replaced by the pipe character ("|") for better visibility). This could be useful, for example, in troubleshooting some client-server exchange issues with a specific broker. In addition, the trade statistics were only limited for filled Buy orders only. Future version of the application will be developed to include more functionalities (e.g. for short selling).
